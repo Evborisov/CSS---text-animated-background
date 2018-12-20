@@ -1,0 +1,60 @@
+/*
+font-family: 'Patua One', cursive;
+
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Archivo Black', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Bangers', cursive;
+font-family: 'Black Ops One', cursive;
+font-family: 'Holtwood One SC', serif; 
+*/
+
+body{
+    font-family: 'Black Ops One', cursive;
+    height: 100vh;
+    background: url(../Media/pubg2.jpg) no-repeat center center/cover;
+    overflow: hidden;
+    }
+
+.filter{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center
+}
+h1,h2{
+    margin: 0%;
+    padding:0%
+}
+
+h2{
+    background:linear-gradient(yellow, red);
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    padding-top: 0.2vh;
+    padding-bottom: 0.2vh;
+    border-radius: 0.85vh;
+    box-shadow: 0vh 0vh 0.5vh 0.4vh grey;
+    font-size: 4rem
+}
+h1{
+    color: transparent;
+    font-size: 8rem;
+    background: url(../Media/flames.jpg) no-repeat;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: movebg 30s linear infinite;
+    -webkit-animation: movebg 30s linear infinite
+
+}
+/* Background text animation */
+@keyframes movebg {
+    0% {
+        background-position: 0% 30%
+    }
+    100% {
+        background-position: 100% 50%
+    }
+}
